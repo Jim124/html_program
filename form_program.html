@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Course language page</title>
+  </head>
+  <body>
+    <h1>Your Course Landing Page</h1>
+    <form action="http://www.google.com" method="get">
+      <div>
+        <label for="courseTitle">Course title</label>
+        <input type="text" name="courseTitle" id="courseTitle" required />
+      </div>
+      <div>
+        <div>
+          <label for="courseDescription">Course Desciption</label>
+        </div>
+        <textarea
+          rows="10"
+          cols="30"
+          id="courseDescription"
+          name="desc"
+        ></textarea>
+      </div>
+      <div>
+        <label for="level">Skill Level</label>
+        <select id="level" name="level">
+          <option value="1">Beginner Level</option>
+          <option value="2">Intermediate Level</option>
+          <option value="3">Expert Level</option>
+          <option value="4">all Level</option>
+        </select>
+      </div>
+      <div>
+        <label for="publish"> Ready to publish the course</label>
+        <input id="publish" type="checkbox" name="publish" name="publish" />
+      </div>
+      <button>submit</button>
+    </form>
+  </body>
+</html>
